@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakymchuk SMM Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Молочний колір */
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #b30000; /* Бордовий колір */
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #b30000; /* Бордовий колір */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #800000; /* Темно-червоний колір */
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yakymchuk SMM Services</h1>
+        <p>Привіт! Я - smm specialist і я пропоную свої послуги в соціальних мережах. Зв'яжіться зі мною, якщо вам потрібна допомога з просуванням вашого бізнесу в Інтернеті.</p>
+        
+        <div class="contact-form">
+            <h2>Зв'яжіться зі мною</h2>
+            <form action="https://docs.google.com/forms/d/1jhHUZVqKedeoFe4ZQT-smDGrR1F_phCM_9j3gaYGC8M/formResponse" method="POST" target="_blank">
+                <input type="text" name="entry.846049837" placeholder="Ваше ім'я" required><br>
+                <input type="email" name="entry.352135513" placeholder="Ваш Email" required><br>
+                <textarea name="entry.1541572619" placeholder="Ваше повідомлення" required></textarea><br>
+                <input type="submit" value="Відправити">
+            </form>
+        </div>
+        
+        <div class="social-links">
+            <h2>Мої соціальні мережі</h2>
+            <a href="https://www.linkedin.com/in/yakymchukk" target="_blank">LinkedIn</a>
+            <a href="https://t.me/yaaakyyymchuuuk" target="_blank">Telegram</a>
+        </div>
+    </div>
+</body>
+</html>
